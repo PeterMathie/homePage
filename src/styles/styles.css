@@ -1,0 +1,31 @@
+@import './variables.css';
+
+body {
+    margin: 0;
+    background-color: var(--neutral-dark)
+}
+
+:root {
+    margin: 0;
+}
+
+.App {
+    margin: 0;
+}
+
+.Title {
+    margin: 0;
+    color: var(--neutral-light);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.Header {
+    font-style: bold;
+    background-color: var(--primary-color);
+    display: flex;
+    height: 20vh;
+    width: 100%;
+}
