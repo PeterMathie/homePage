@@ -5,4 +5,16 @@
     --neutral-light: #EFEFEF;
     --neutral-dark: #212121;
     /* Add more colors as needed */
+
+    /*buttonWidth == -titleOffset*/
+    --titleOffset: -5%;
+    --buttonWidth: 5%;
+}
+
+
+@font-face {
+    font-family: 'SpaceX';
+    font-style: normal;
+    font-weight: normal;
+    src: local('fonts/SpaceX.ttf'), url('fonts/SpaceX.woff') format('woff');
 }

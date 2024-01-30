@@ -13,19 +13,46 @@ body {
     margin: 0;
 }
 
-.Title {
-    margin: 0;
-    color: var(--neutral-light);
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    
-}
 
 .Header {
-    font-style: bold;
+    margin: 0;
     background-color: var(--primary-color);
     display: flex;
-    height: 20vh;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+    width: 100vw;
+}
+
+.Title {
+    color: var(--neutral-light);
+    text-align: center;
+    justify-content: center;
+    font-family: "SpaceX";
+    width: 90%;
+    margin: 0;
+    font-size: 3vw;
+
+}
+
+.NavButton {
+    height: 30%;
+    width: 3.5vw;
+    margin-left: 1%;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+}
+
+.Bar {
     width: 100%;
+    margin-left: 0%;
+    height: 3%;
+    background-color: var(--neutral-light);
+    border-radius: 100000px;
+
 }
