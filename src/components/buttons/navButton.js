@@ -1,13 +1,10 @@
+import React from 'react';
 import FunctionalButton from './functionalButton.js';
 
-function NavButton() {
-    const handleClick = () => {
-        // Define the function to be executed on button click
-        console.log('Button clicked!');
-        // Add your custom logic here
-    };
+function NavButton({ onClick }) {
+
     return (
-        <FunctionalButton className={"NavButton"} onClick={handleClick}>
+        <FunctionalButton className={"NavButton"} onClick={onClick}>
             <div className='Bar'></div>
             <div className='Bar'></div>
             <div className='Bar'></div>

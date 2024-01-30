@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: var(--neutral-dark)
+    background-color: var(--light-colour);
 }
 
 :root {
@@ -13,46 +13,70 @@ body {
     margin: 0;
 }
 
+.CanvasWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--light-colour);
+    z-index: -1;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+}
 
 .Header {
     margin: 0;
-    background-color: var(--primary-color);
+    background-color: var(--primary-colour);
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 15vh;
     width: 100vw;
+    opacity: 80%;
 }
 
 .Title {
-    color: var(--neutral-light);
+    color: var(--light-colour);
     text-align: center;
     justify-content: center;
-    font-family: "SpaceX";
+    font-family: "Monospace";
     width: 90%;
     margin: 0;
     font-size: 3vw;
-
+    margin-left: -3.5vw;
 }
 
 .NavButton {
     height: 30%;
     width: 3.5vw;
-    margin-left: 1%;
     padding: 0;
     border: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: var(--primary-color);
+    background-color: var(--primary-colour);
+    z-index: 1;
+
 }
 
 .Bar {
     width: 100%;
     margin-left: 0%;
     height: 3%;
-    background-color: var(--neutral-light);
+    background-color: var(--light-colour);
     border-radius: 100000px;
+
+}
+
+.NavMenu {
+    background-color: var(--secondary-colour);
+    height: 85vh;
+    width: 20%;
+    opacity: 80%;
 
 }

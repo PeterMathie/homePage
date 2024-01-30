@@ -4,11 +4,13 @@ import React from 'react';
 import NavButton from '../buttons/navButton.js';
 import Title from './title.js';
 
-function Header() {
+const Header = ({ toggleNavMenuVisibility }) => {
+
+
     return (
         <div className="Header">
-            <NavButton />
-            <Title title="Peter Mathie EXperience" />
+            <NavButton onClick={toggleNavMenuVisibility} />
+            <Title title="Ciena3840" />
         </div>
     );
 }
